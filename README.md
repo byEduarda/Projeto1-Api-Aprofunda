@@ -9,47 +9,36 @@ Permite criar, listar, buscar, atualizar e deletar tarefas armazenadas em memór
 
 ## Como rodar a API
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/byEduarda/Projeto1-Api-Aprofunda.git
-   
+1. Clone o repositório:  
+```bash
+git clone https://github.com/byEduarda/Projeto1-Api-Aprofunda.git
+
+
 2. Entre na pasta API:
+```bash
 cd Projeto1-Api-Aprofunda/API
 
 
 3. Instale as dependências:
+```bash
 npm install
 
 
 4. Inicie o servidor:
+```bash
 npm start
 
 
 A API estará rodando em:
 http://localhost:3000
 
-Listar todas as tarefas (GET)
-URL: http://localhost:3000/tasks
-
-Buscar tarefa por ID (GET)
-URL: http://localhost:3000/tasks/1
-
-Atualizar tarefa (PUT)
-URL: http://localhost:3000/tasks/1
-
-Deletar tarefa (DELETE)
-URL: http://localhost:3000/tasks/2
 
 
-
-Testes no Thunder Client
-
-Listar tarefas
-
-
-Atualizar tarefa
-
-
-Deletar tarefa
-
-
+Funcionalidades da API
+| Método | Rota        | Descrição                   |
+| ------ | ----------- | --------------------------- |
+| GET    | /tasks      | Lista todas as tarefas      |
+| GET    | /tasks/\:id | Busca uma tarefa pelo ID    |
+| POST   | /tasks      | Cria uma nova tarefa        |
+| PUT    | /tasks/\:id | Atualiza uma tarefa pelo ID |
+| DELETE | /tasks/\:id | Deleta uma tarefa pelo ID   |
