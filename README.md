@@ -42,3 +42,23 @@ Funcionalidades da API
 | POST   | /tasks      | Cria uma nova tarefa        |
 | PUT    | /tasks/\:id | Atualiza uma tarefa pelo ID |
 | DELETE | /tasks/\:id | Deleta uma tarefa pelo ID   |
+
+
+
+
+
+### Listar todas as tarefas
+![Listar tarefas](./prints/listar-tarefas.png)
+
+### Confirmar exclusão de uma tarefa
+![Mensagem de exclusão](./prints/confirmar-exclusao.png)
+
+### Após exclusão da tarefa
+![Tarefa apagada](./prints/tarefa-apagada.png)
+
+### Atualizar uma tarefa
+![Texto a ser atualizado](./prints/atualizar-tarefa.png)
+
+### Tarefa atualizada
+![Texto atualizado](./prints/tarefa-atualizada.png)
+
